@@ -24,50 +24,71 @@ params_coin = {
         "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 20,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
-    "AVAX/USD": {
-        "wallet_exposure": 0.2,
+    "ETH/USD": {
+        "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 25,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
-    "LTC/USD": {
-        "wallet_exposure": 0.2,
+    "AAVE/USD": {
+        "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 5,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
-    "LINK/USD": {
-        "wallet_exposure": 0.2,
+    "BNB/USD": {
+        "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 20,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
-    "XRP/USD": {
-        "wallet_exposure": 0.2,
+    "ATOM/USD": {
+        "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 15,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
     "CHZ/USD": {
         "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 20,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
-     "ETH/USD": {
+     "DOT/USD": {
         "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
-        "short_ema_window": 20,
-        "long_ema_window": 400
+        "short_ema_window": 3,
+        "long_ema_window": 130
+    },
+    "VET/USD": {
+        "wallet_exposure": 0.1,
+        "st_short_atr_window": 15,
+        "st_short_atr_multiplier": 5,
+        "short_ema_window": 3,
+        "long_ema_window": 130
+    },
+    "LINK/USD": {
+        "wallet_exposure": 0.1,
+        "st_short_atr_window": 15,
+        "st_short_atr_multiplier": 5,
+        "short_ema_window": 3,
+        "long_ema_window": 130
+    },
+    "LUNA/USD": {
+        "wallet_exposure": 0.1,
+        "st_short_atr_window": 15,
+        "st_short_atr_multiplier": 5,
+        "short_ema_window": 3,
+        "long_ema_window": 130
     },
 }
 
