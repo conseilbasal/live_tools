@@ -62,6 +62,13 @@ params_coin = {
         "short_ema_window": 20,
         "long_ema_window": 400
     },
+     "ETH/USD": {
+        "wallet_exposure": 0.1,
+        "st_short_atr_window": 15,
+        "st_short_atr_multiplier": 5,
+        "short_ema_window": 20,
+        "long_ema_window": 400
+    },
 }
 
 if sum(d["wallet_exposure"] for d in params_coin.values() if d) > 1:
