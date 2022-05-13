@@ -83,7 +83,7 @@ params_coin = {
         "short_ema_window": 3,
         "long_ema_window": 130
     },
-    "LUNA/USD": {
+    "AXS/USD": {
         "wallet_exposure": 0.1,
         "st_short_atr_window": 15,
         "st_short_atr_multiplier": 5,
