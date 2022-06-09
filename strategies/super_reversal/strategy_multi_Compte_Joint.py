@@ -154,8 +154,8 @@ for coin in coin_in_usd:
     if coin_balance[coin] > float(ftx.get_min_order_amount(coin + "/USD")):
         positions.append(coin + "/USD")
         available_wallet_pct -= params_coin[coin + "/USD"]["wallet_exposure"]
-        except:
-            continue
+    except:
+        continue
 
 pair_to_check = list(set(params_coin.keys()) - set(positions))
 for pair in pair_to_check:
